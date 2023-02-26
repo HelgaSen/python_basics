@@ -8,7 +8,7 @@
 the_list = list((input('Введите целые числа через пробел: ').split(' ')))
 print(the_list)
 
-for i in range(0, len(the_list)-1, 2):
-    the_list[i], the_list[i+1] = the_list[i+1], the_list[i]
+for i in range(0, len(the_list) - 1, 2):
+    the_list[i], the_list[i + 1] = the_list[i + 1], the_list[i]
 
 print(the_list)
