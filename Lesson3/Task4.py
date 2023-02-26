@@ -6,14 +6,14 @@
 """
 
 number = int(input('Введите натуральное число N: '))
-the_list = []
+list_of_numbers = []
 for i in range(0, number):
-    the_list.append(i + 1)
+    list_of_numbers.append(i + 1)
     i += 1
-print(the_list)
+print(list_of_numbers)
 number_to_search = int(input('Введите натуральное число X: '))
-if the_list.count(number_to_search) != 0:
+if list_of_numbers.count(number_to_search) != 0:
     print(f'Число {number_to_search} встречается в массиве '
-          f'{(the_list.count(number_to_search))} раз')
+          f'{(list_of_numbers.count(number_to_search))} раз')
 else:
     print('Таких чисел в массиве нет')

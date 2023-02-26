@@ -11,15 +11,15 @@
 например, my_list = [7, 5, 3, 3, 2].
 """
 
-the_list = list((input('Введите несколько натуральных чисел через '
-                       'пробел ').split(' ')))
-the_list = [int(i) for i in the_list]
-print(the_list)
+list_of_numbers = list((input('Введите несколько натуральных чисел через '
+                              'пробел ').split(' ')))
+list_of_numbers = [int(i) for i in list_of_numbers]
+print(list_of_numbers)
 
-the_list.sort(reverse=True)
-print(the_list)
+list_of_numbers.sort(reverse=True)
+print(list_of_numbers)
 
 new_element = int(input('Введите новую позицию в рейтинге: '))
-the_list.append(new_element)
-the_list.sort(reverse=True)
-print(the_list)
+list_of_numbers.append(new_element)
+list_of_numbers.sort(reverse=True)
+print(list_of_numbers)
