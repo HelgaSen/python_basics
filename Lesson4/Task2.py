@@ -14,7 +14,7 @@
 """
 
 bushes_number = int(input('Сколько всего на грдке растет кустов? '))
-berries_number = [int(x) for x in input('Введите количество ягод на каждом '
+berries_number = [int(i) for i in input('Введите количество ягод на каждом '
                                         'кусте через пробел: \n').split()]
 berries_number = berries_number + berries_number[:2]
 max_collect_berries = 0
