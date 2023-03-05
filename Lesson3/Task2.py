@@ -11,8 +11,8 @@
 например, my_list = [7, 5, 3, 3, 2].
 """
 
-list_of_numbers = (input('Введите несколько натуральных чисел через '
-                         'пробел ').split(' '))
+list_of_numbers = input('Введите несколько натуральных чисел через '
+                         'пробел ').split(' ')
 list_of_numbers = [int(i) for i in list_of_numbers]
 print(list_of_numbers)
 
