@@ -33,3 +33,15 @@ for i in words_list:
               f'маркировки b\'\'')
     else:
         print(f'со словом "{i}" так не получится')
+
+# Вариант 3
+
+words_list = ['attribute', 'класс', 'функция', 'type']
+
+for i in words_list:
+    try:
+        b = bytes(i, 'ascii')
+        print(f'"{i}" можно записать в байтовом формате с помощью '
+              f'маркировки b\'\'')
+    except:
+        print(f'со словом "{i}" так не получится')
